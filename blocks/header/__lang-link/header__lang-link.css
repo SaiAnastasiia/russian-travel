@@ -1,0 +1,28 @@
+.header__lang-link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-left: 18px;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    cursor: url(../../../images/Imported\ Layers\ Copy\ 4.png), default;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+    transition: .2s linear;
+}
+
+.header__lang-link:focus {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,10 @@
+.footer__link-name {    
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: url(../../../images/Imported\ Layers\ Copy\ 4.png), default;
+}
+
+.footer__link-name:hover {
+  opacity: .8;
+  transition: .2s linear;
+}

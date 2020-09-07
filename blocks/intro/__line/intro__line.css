@@ -1,0 +1,7 @@
+.intro__line {
+    margin-bottom: 6px;
+}
+
+.intro__line:last-child {
+    margin-bottom: 0px;
+}
