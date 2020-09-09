@@ -1,0 +1,13 @@
+.body {
+    background: #2A2C2F;
+    min-width: 1280px;
+    margin: 0;
+
+}
+
+@media screen and (max-width: 1279px) {    
+    .body {
+        min-width: 0;
+
+    } 
+}

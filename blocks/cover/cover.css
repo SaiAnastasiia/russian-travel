@@ -9,8 +9,6 @@
     flex-direction: column;
     justify-content: center;
     cursor: url(../../images/Imported\ Layers\ Copy\ 4.png), default;
-    color: #FFFFFF;
-    text-decoration: none;
 }
 
 .cover::before {
@@ -22,7 +20,7 @@
   left: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
-  transition: opacity 0.3s;
+  transition: opacity .3s;
 }
 
 .cover:hover::before {
@@ -31,7 +29,6 @@
 
 @media screen and (max-width: 1184px) {
     .cover {
-        width: 100%;
         margin-left: 0;
         margin-right: 0;
     }

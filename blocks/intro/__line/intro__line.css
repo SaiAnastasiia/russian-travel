@@ -1,5 +1,6 @@
 .intro__line {
     margin-bottom: 6px;
+    font-weight: normal;
 }
 
 .intro__line:last-child {

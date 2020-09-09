@@ -1,5 +1,4 @@
 .header__lang-link {
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     text-decoration-line: underline;
@@ -14,10 +13,6 @@
 .header__lang-link:hover {
     opacity: .8;
     transition: .2s linear;
-}
-
-.header__lang-link:focus {
-    text-decoration: underline;
 }
 
 @media screen and (max-width: 425px) {

@@ -4,21 +4,18 @@
     margin: auto;   
     flex-direction: column;
     align-items: center;
-    max-height: 1005px; 
     max-width: 984px;
     margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) { 
     .lead {
-        max-height: 962px; 
         max-width: 928px;
     }    
 }
 
 @media screen and (max-width: 768px) {
     .lead {
-        max-height: 862px; 
         max-width: 100%;
         margin-bottom: 88px;
     }
@@ -26,7 +23,6 @@
 
 @media screen and (max-width: 425px) {
     .lead {
-        max-height: 406px; 
         max-width: 100%;
         margin-bottom: 64px;
     }  

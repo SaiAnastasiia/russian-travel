@@ -7,10 +7,10 @@
     align-self: flex-start;
     font-size: 10px;
     line-height: 14px;
-    padding-left: 148px;
+    letter-spacing: 0.15em;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 980px) {
     .lead__caption {
         padding-left: 48px; 
     }
@@ -18,12 +18,12 @@
 
 @media screen and (max-width: 768px) {
     .lead__caption {  
-        padding-left: 24px;
+       padding-left: 24px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .lead__caption {
-        padding-left: 16px;
+       padding-left: 16px;
     }
 }
